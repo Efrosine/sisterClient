@@ -10,7 +10,7 @@ include("Client.php");
 </head>
 
 <body>
-    <a href="?page=home">Home</a>|<a href="?page=tambah">Tambah Data</a>|<a href="?page=daftar-data">Daftar Server</a>
+    <a href="?page=home">Home</a>|<a href="?page=tambah">Tambah Data</a>|<a href="?page=daftar-data">Data Server</a>
     <br><br />
     <? if ($_GET['page'] == 'tambah') { ?>
         <legend>Tambah Data</legend>
